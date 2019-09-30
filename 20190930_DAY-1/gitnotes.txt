@@ -1,0 +1,40 @@
+GIT COMMANDS
+
+git config --global user.name "keshav kummari"
+git config --global user.email "keshav.kummari@gmail.com"
+
+Create a new repository
+
+git clone git@gitlab.com:keshavkummari/7am_Python.git
+cd 7am_Python
+touch README.md
+git add README.md
+git commit -m "add README"
+git push -u origin master
+
+Existing folder
+
+cd existing_folder
+git init
+git remote add origin git@gitlab.com:keshavkummari/7am_Python.git
+git add .
+git commit -m "Initial commit"
+git push -u origin master
+
+Existing Git repository
+
+cd existing_repo
+git remote rename origin old-origin
+git remote add origin git@gitlab.com:keshavkummari/7am_Python.git
+git push -u origin --all
+git push -u origin --tags
+
+# ssh-keygen -t rsa -b 4096 -C "keshav.kummari@gmail.com"
+
+# eval "$(ssh-agent -s)"
+Agent pid 2153
+
+# ssh-add -k ~/.ssh/id_rsa
+Identity added: /home/ubuntu/.ssh/id_rsa (/home/ubuntu/.ssh/id_rsa)
+
+# ssh -T git@github.com
