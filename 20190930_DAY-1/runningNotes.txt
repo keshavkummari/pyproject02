@@ -1,0 +1,84 @@
+
+DAY-1 of Python 
+
+Agenda :
+
+VCS / SCM Commands  : git
+
+VCS / SCM Vendors   : github.com , gitlab.com , bitbucket.com etc...
+
+RunningNOtes:
+
+  502  git --version
+  503  # git config --global user.name "keshavkummari"
+  504  # git config --global user.email "keshav.kummari@gmail.com"
+  505  # ssh-keygen 
+  506  #
+  507  # 
+  508  #
+  509  #
+  510  ls -lrta .ssh/
+  511  pwd
+  512  ssh-keygen
+  513  ls -lrt /Users/keshavkummari/.ssh/
+  514  cat /Users/keshavkummari/.ssh/id_rsa.pub 
+  515  eval "$(ssh-agent -s)"
+  516  ssh-add -k ~/.ssh/id_rsa
+  517  ssh -T git@github.com
+
+
+   502  git --version
+  503  # git config --global user.name "keshavkummari"
+  504  # git config --global user.email "keshav.kummari@gmail.com"
+  505  # ssh-keygen 
+  506  #
+  507  # 
+  508  #
+  509  #
+  510  ls -lrta .ssh/
+  511  pwd
+  512  ssh-keygen
+  513  ls -lrt /Users/keshavkummari/.ssh/
+  514  cat /Users/keshavkummari/.ssh/id_rsa.pub 
+  515  eval "$(ssh-agent -s)"
+  516  ssh-add -k ~/.ssh/id_rsa
+  517  ssh -T git@github.com
+  518  history
+  519  pwd
+  520  git clone https://github.com/keshavkummari/testFolder.git
+  521  ls -ld testFolder/
+  522  ls -lrta testFolder/
+  523  pwd
+  524  mkdir pyproject02
+  525  ls -ld pyproject02
+  526  ls -lrta pyproject02/
+  527  cd pyproject02
+  528  pwd
+  529  ls -lrt
+  530  ls -lrta
+  531  git init
+  532  ls -lrta
+  533  git remote add origin git@github.com:keshavkummari/pyproject02.git
+  534  pwd
+  535  ls -lrta
+  536  touch localGitRepo.txt
+  537  ls -lrta
+  538  echo "Welcome to VCS/SCM" >> localGitRepo.txt 
+  539  cat localGitRepo.txt 
+  540  git add .
+  541  git status
+  542  git commit -m "LocalRepo"
+  543  git status
+  544  git push -u origin master
+  545  echo "# pyproject02" >> README.md
+  546  ls -lrt
+  547  git init
+  548  git status
+  549  git add README.md
+  550  git status
+  551  git commit -m "first commit"
+  552  git status
+  553  git remote add origin https://github.com/keshavkummari/pyproject02.git
+  554  git push -u origin master
+
+

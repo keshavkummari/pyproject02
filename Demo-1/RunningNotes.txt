@@ -1,0 +1,16 @@
+Agenda : 
+
+1. What is Python?
+
+2. Why to Learn Python?
+
+3. Who Created Python?
+
+1. gitbash   : https://git-scm.com/
+2. github.com : https://github.com
+3. aws  : https://aws.amazon.com 
+4. azure : https://portal.azure.com
+5. hub.docker.com : https://hub.docker.com/
+6. trello.com : https://trello.com
+7. Pycharm : https://www.jetbrains.com/pycharm/download/#section=mac
+
