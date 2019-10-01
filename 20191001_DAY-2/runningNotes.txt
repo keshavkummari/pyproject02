@@ -1,0 +1,7 @@
+Agenda :
+
+1. Basics of Programming
+2. Rule of Creating Variables
+3. Built-in Functions
+4. Usage Built-in Functions 
+5. ASCII : American Standard Code for Information Interchange.
