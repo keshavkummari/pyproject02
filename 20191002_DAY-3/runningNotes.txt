@@ -1,0 +1,6 @@
+Agenda :
+
+3. Built-in Functions
+4. Usage Built-in Functions 
+5. ASCII : American Standard Code for Information Interchange.
+6. Data Types in Python
