@@ -1,0 +1,12 @@
+"""
+Agenda :
+
+5. Dict Data Types 
+
+6. Sets Data Types 
+
+1. Strings Data Type & Methods and Built-in Functions
+
+"""
+
+
