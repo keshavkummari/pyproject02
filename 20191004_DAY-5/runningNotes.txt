@@ -1,0 +1,28 @@
+Agenda : 
+
+1. String Methods :
+
+# Create a Variable 
+      #  012345678910111213
+cloud = "aws azure gcp"
+#print(cloud,type(cloud),id(cloud),len(cloud))
+#print(cloud)
+#print(cloud.capitalize())
+#print(cloud.upper())
+#languages = "Java .Net NodeJs Python"
+#print(languages)
+#print(languages.swapcase())
+#cloud_vendors = "AWS AZURE GCP"
+#print(cloud_vendors)
+#print(cloud_vendors.lower())
+#print(cloud.title())
+print(len(cloud))
+#print(cloud.count('a'))
+#print(cloud.count('a',0,4))
+#print(cloud.find('AWS'.swapcase()))
+#print(cloud.find('gcp'))
+print(cloud.rfind("aws"))
+print(cloud.rfind("gcp"))
+print(cloud.startswith('azure'))
+print(cloud.startswith('aws'))
+print(cloud.endswith('gcp'))
